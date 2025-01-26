@@ -1,0 +1,9 @@
+[package]
+name = "poc-rust-ipp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+image = "0.25.5"
+ipp = { version="5.2.0", features = ["client"] }
+printpdf = { version="0.7.0", features = ["embedded_images"] }
